@@ -3,17 +3,68 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archive | imincheol technology blog</title>
+    <title>패키지 매니저 Bower | imincheol technology blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="imincheol technology blog">
-<meta property="og:url" content="https://imincheol.github.io/archives/index.html">
-<meta property="og:site_name" content="imincheol technology blog">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="imincheol technology blog">
+        <meta name="keywords" content="" />
     
-    <link rel="canonical" href="https://imincheol.github.io/archives/"/>
+    <meta name="description" content="Package manager Bower
+패키지 매니저
+Like. Npm, maven, gem
+라이브러리를 간편하게 관리, 설치해줄 수 있다. ( jQuery, Bootstrap, … )
+https://bower.io/
+
+설치
+$ npm install bower --save
+
+사용법
+시작하기
+bower.json 파일을 만든다.
+$ bower init
+
+
+라이">
+<meta property="og:type" content="article">
+<meta property="og:title" content="패키지 매니저 Bower">
+<meta property="og:url" content="https://imincheol.github.io/2016/07/21/Package-manager-Bower/index.html">
+<meta property="og:site_name" content="imincheol technology blog">
+<meta property="og:description" content="Package manager Bower
+패키지 매니저
+Like. Npm, maven, gem
+라이브러리를 간편하게 관리, 설치해줄 수 있다. ( jQuery, Bootstrap, … )
+https://bower.io/
+
+설치
+$ npm install bower --save
+
+사용법
+시작하기
+bower.json 파일을 만든다.
+$ bower init
+
+
+라이">
+<meta property="og:updated_time" content="2016-07-21T06:34:53.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="패키지 매니저 Bower">
+<meta name="twitter:description" content="Package manager Bower
+패키지 매니저
+Like. Npm, maven, gem
+라이브러리를 간편하게 관리, 설치해줄 수 있다. ( jQuery, Bootstrap, … )
+https://bower.io/
+
+설치
+$ npm install bower --save
+
+사용법
+시작하기
+bower.json 파일을 만든다.
+$ bower init
+
+
+라이">
+    
+    <link rel="canonical" href="https://imincheol.github.io/2016/07/21/Package-manager-Bower/"/>
 
     
 
@@ -129,295 +180,169 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>Archive
+    uncategorized
     </h1>
 </div>
                         <div class="main-body-content">
-                            
+                            <article id="post-Package-manager-Bower" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        패키지 매니저 Bower
+        </h1>
+    
 
-    
-    
+            </header>
         
         
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2016" class="archive-year"><i class="icon fa fa-calendar-o"></i>2016</a>
+            <div class="article-subtitle">
+                <a href="/2016/07/21/Package-manager-Bower/" class="article-date">
+    <time datetime="2016-07-21T06:27:47.000Z" itemprop="datePublished">2016-07-21</time>
+</a>
+                
             </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
         
-        <a href="/2016/07/21/Package-manager-Bower/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-url="https://imincheol.github.io/2016/07/21/Package-manager-Bower/">0</span>
-    
-</span>
+        <div class="article-entry" itemprop="articleBody">
+            <p>Package manager Bower</p>
+<h2 id="패키지-매니저"><a href="#패키지-매니저" class="headerlink" title="패키지 매니저"></a>패키지 매니저</h2><ul>
+<li>Like. Npm, maven, gem</li>
+<li>라이브러리를 간편하게 관리, 설치해줄 수 있다. ( jQuery, Bootstrap, … )</li>
+<li><a href="https://bower.io/" target="_blank" rel="external">https://bower.io/</a></li>
+</ul>
+<h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><ul>
+<li><code>$ npm install bower --save</code></li>
+</ul>
+<h2 id="사용법"><a href="#사용법" class="headerlink" title="사용법"></a>사용법</h2><ul>
+<li>시작하기<ul>
+<li>bower.json 파일을 만든다.</li>
+<li><code>$ bower init</code></li>
+</ul>
+</li>
+<li>라이브러리 설치<ul>
+<li>Bower를 사용하여 jQeury를 설치한다.</li>
+<li>bower_components &gt; jquery 에 설치된다.</li>
+<li><code>$ bower install jquery --save</code></li>
+</ul>
+</li>
+<li>bower-installer 설치<ul>
+<li>bower_components에 있으면 사용하기가 어렵다. 따라서 해당 파일들을 사용하기 쉽게 설치(복사)해주는 installer를 설치하자.</li>
+<li><code>$ npm install -g bower-installer</code></li>
+<li>bower.json 수정<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">    &quot;install&quot; : &#123;  &quot;path&quot; : &#123;    &quot;css&quot; : &quot;static/css&quot;,    &quot;js&quot; : &quot;static/js&quot;  &#125;&#125;</div><div class="line">    </div></pre></td></tr></table></figure></li>
+<li>bower로 설치한 라이브러리 중 css 파일과 js파일을 옮겨준다.</li>
+<li><code>$ bower-installer</code></li>
+<li><a href="https://github.com/blittle/bower-installer" target="_blank" rel="external">https://github.com/blittle/bower-installer</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="설명"><a href="#설명" class="headerlink" title="설명"></a>설명</h2><ul>
+<li>사용가능한 라이브러리 종류<ul>
+<li>Github<ul>
+<li>Shorthand<ul>
+<li>[사용자명]/[패키지명] 으로 바로 설치 가능</li>
+<li><code>$ bower install user/package</code></li>
+</ul>
+</li>
+<li>Endpoint<ul>
+<li>Github .git</li>
+<li><code>$ bower install git://github.com/user/package.git</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>URL<ul>
+<li>Java script<ul>
+<li>.js</li>
+<li><code>$ bower install http://example.com/script.js</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2016-07-21T06:27:47.000Z" itemprop="datePublished">2016-07-21</time></p>
         </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2016/07/21/Package-manager-Bower/">패키지 매니저 Bower</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            Package manager Bower
-패키지 매니저
-Like. Npm, maven, gem
-라이브러리를 간편하게 관리, 설치해줄 수 있다. ( jQuery, Bootstrap, … )
-https://bower.io/
-
-설치
-$ npm install bower --save
-
-사용법
-시작하기
-bower.json 파일을 만든다.
-$ bower init
+        <footer class="article-footer">
+            
 
 
-라이
-        </p>
+
+    <a data-url="https://imincheol.github.io/2016/07/21/Package-manager-Bower/" data-id="ciqvy11es0000smjknwyua8hd" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
-    
 
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2016/07/18/Begin-new-chatting-service/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
+    <section id="comments">
     
         
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-url="https://imincheol.github.io/2016/07/18/Begin-new-chatting-service/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2016-07-18T07:22:23.000Z" itemprop="datePublished">2016-07-18</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2016/07/18/Begin-new-chatting-service/">새로운 채팅 서비스 만들기</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            심리학 카페에서 내부용으로 사용할 간단한 채팅을 만든지 벌써 5년이 넘어간다.
-그동안 새로운 기능은 크게 없어고 비교적 간단한 수정사항들만을 반영해 왔었다.
-그러다보니 해당 채팅 프로그램은 Node.js를 사용했다뿐이지 구조화되거나 체계화는 커녕 날코딩에 가깝게 만들어졌다.
-그때 당시에는 node.js를 사용해보자는 목적에 node.js나 javascrip
-        </p>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
-</article>
-    
-        </div>
-    
 
     
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2016/07/15/Hexo-Setting/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-url="https://imincheol.github.io/2016/07/15/Hexo-Setting/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2016-07-15T05:28:15.000Z" itemprop="datePublished">2016-07-15</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2016/07/15/Hexo-Setting/">Hexo Setting</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            ##Hexo Project 만들기
-워드프레스보다 쉬운 Hexo 블로그 시작하기
-
-사용하는 방법
-
-Hexo 기본 사용법
-_config.yml 포스트 파일 명에 날짜로 prefix 붙이기
-포스팅 생성하고 글 쓰기
-
-
-Hexo 태그 플러그인 (Tag plugins) 살펴보기
-
-유튜브 태그 사용하기
-  123&#123;% youtube video_id %&#125
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2016/07/13/Init-hexo-setting/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-url="https://imincheol.github.io/2016/07/13/Init-hexo-setting/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2016-07-13T08:14:35.000Z" itemprop="datePublished">2016-07-13</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2016/07/13/Init-hexo-setting/">Init hexo setting</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            First of all
-You already install hexo then modify _config.yml like this
-12345678910111213title: imincheol technology blogsubtitle:description:author: imincheollanguage: enurl: https://imincheol.github
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2016/07/13/hello-world/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-url="https://imincheol.github.io/2016/07/13/hello-world/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2016-07-13T07:57:08.000Z" itemprop="datePublished">2016-07-13</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2016/07/13/hello-world/">Hello World</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-
-    </div></section>
-
-
+    </section>
 
                         </div>
                     </section>
@@ -477,6 +402,19 @@ Quick
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2016/07/18/Begin-new-chatting-service/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">새로운 채팅 서비스 만들기</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -653,11 +591,13 @@ Quick
     var disqus_shortname = 'imincheol';
     
     
+    var disqus_url = 'https://imincheol.github.io/2016/07/21/Package-manager-Bower/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
